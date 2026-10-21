@@ -1,0 +1,68 @@
+{
+  "problem": "Delivery Routing - Two vans, capacity 10 boxes each",
+  "locations": {
+    "Warehouse": {
+      "x": 0,
+      "y": 0,
+      "boxes": 0
+    },
+    "A": {
+      "x": 2,
+      "y": 1,
+      "boxes": 4
+    },
+    "B": {
+      "x": 3,
+      "y": 2,
+      "boxes": 3
+    },
+    "C": {
+      "x": 2,
+      "y": 4,
+      "boxes": 3
+    },
+    "D": {
+      "x": -2,
+      "y": 1,
+      "boxes": 4
+    },
+    "E": {
+      "x": -3,
+      "y": 2,
+      "boxes": 3
+    },
+    "F": {
+      "x": -2,
+      "y": 4,
+      "boxes": 3
+    }
+  },
+  "van_capacity": 10,
+  "total_boxes": 20,
+  "solution": {
+    "total_minimum_distance": 20.71697094474451,
+    "van1": {
+      "customer_names": [
+        "A",
+        "B",
+        "C"
+      ],
+      "boxes": 10,
+      "route_distance": 10.358485472372255
+    },
+    "van2": {
+      "customer_names": [
+        "D",
+        "E",
+        "F"
+      ],
+      "boxes": 10,
+      "route_distance": 10.358485472372255
+    }
+  },
+  "route_distances": {
+    "van1": 10.358485472372255,
+    "van2": 10.358485472372255,
+    "total": 20.71697094474451
+  }
+}
